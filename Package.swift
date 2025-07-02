@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "EnliqStoryWrapper",
             dependencies: [
-                "Kingfisher",
+                .product(name: "Kingfisher", package: "Kingfisher"),
                 .target(name: "EnliqStory")
             ]
         )
