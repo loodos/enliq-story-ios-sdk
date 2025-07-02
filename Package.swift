@@ -13,7 +13,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/onevcat/Kingfisher.git", from: "7.12.0")
+        .package(url: "https://github.com/onevcat/Kingfisher.git", exact: "7.12.0")
     ],
     targets: [
         .binaryTarget(
