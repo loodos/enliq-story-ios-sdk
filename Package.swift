@@ -13,9 +13,6 @@ let package = Package(
             targets: ["EIQStory"]
         )
     ],
-    dependencies: [
-        .package(url: "https://github.com/onevcat/Kingfisher.git", exact: "7.12.0")
-    ],
     targets: [
         .binaryTarget(
             name: "EIQStory",
