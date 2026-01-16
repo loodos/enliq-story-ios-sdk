@@ -29,8 +29,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "EIQStory",
-            url: "https://github.com/loodos/enliq-story-ios-sdk/releases/download/v1.1.1/eiqstory.xcframework.zip",
-            checksum: "ae222135a82ed6ec476506524e2a861ba4c9417b6f56bb6ff619e8131c9ceeb0"
+            url: "https://github.com/loodos/enliq-story-ios-sdk/releases/download/v1.1.2/eiqstory.xcframework.zip",
+            checksum: "e741805d58f879a63159d35f79d0db59d4cc5b39a6b587df419ea28e08e8af6c"
         )
     ]
 )
